@@ -1,0 +1,155 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    padding: 8px 32px;
+    justify-content: space-around;
+}
+
+.logo {
+    font-size: 20px;
+    color: #F9FAF8;
+    align-self: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.header li {
+    margin: 16px;
+}
+
+.top {
+    display: flex;
+    background-color: #1F2937;
+    padding: 36px;
+    justify-content: space-around;
+}
+
+.hero {
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+h1,
+p {
+    margin: 0;
+    color: #F9FAF8;
+}
+
+p {
+    color: #E5E7EB;
+}
+
+.hero button {
+    padding: 5px 20px;
+    margin-top: 16px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: 0;
+    font-size: 14px;
+    font-weight: 700;
+    color: #F9FAF8;
+    flex-shrink: 0;
+}
+
+img {
+    
+}
+
+.content1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.content1 li {
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 20px;
+    color: #E5E7EB;
+    font-size: small;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
+    background-color: #E5E7EB;
+}
+
+.content2 p:nth-of-type(1) {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.content2 p:nth-of-type(2) {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1F2937;
+    align-self: flex-end;
+}
+
+.content3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.call {
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    padding: 32px;
+}
+
+.call p:nth-of-type(1) {
+    font-weight: 700;
+}
+
+.call button {
+    border-width: 2px;
+    border-color: #E5E7EB;
+    padding: 5px 20px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #F9FAF8;
+    flex-shrink: 0;
+}
